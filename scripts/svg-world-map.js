@@ -35,7 +35,7 @@ var svgWorldMap = (function() {
         libPath: 'src/', // Point to library folder, e.g. (http[s]:)//myserver.com/map/src/
         // Basic options
         bigMap: true, // Set to 'false' to load small map without provinces
-        showOcean: true, // Show or hide ocean layer
+        showOcean: false, // Show or hide ocean layer
         showAntarctica: true, // Show or hide antarctic layer
         showLabels: true, // Show country labels
         showMicroLabels: false, // Show microstate labels
@@ -43,8 +43,8 @@ var svgWorldMap = (function() {
         showInfoBox: false, // Show info box
         backgroundImage: '', // Background image path
         // Color options
-        oceanColor: '#D8EBFF', 
-        worldColor: '#FFFFFF', 
+        oceanColor: '#fff', 
+        worldColor: '#ebeff0', 
         labelFill: { out: '#666666',  over: '#333333',  click: '#000000' }, 
         //countryFill: { out: '#B9B9B9',  over: '#CCCCCC',  click: '#666666' }, // TODO: Currently this makes no sense for main country groups, until all country borders are existing in the SVG (a lot are missing, e.g. Japan, Greenland, Antarctica)
         countryStroke: { out: '#FFFFFF',  over: '#FFFFFF',  click: '#333333' }, 
