@@ -24,6 +24,11 @@ var data = {
           "coordinates": [34.399930, 132.460392]
         },
         {
+          "name": "Kyoto",
+          "description": "Round trip, 2013",
+          "coordinates": [34.985886, 135.759593]
+        },
+        {
           "name": "Osaka",
           "description": "Round trip, 2013",
           "coordinates": [34.665693, 135.489313]
@@ -31,6 +36,20 @@ var data = {
       ]
     },
     {
+      "id": "DEU",
+      "cities": [
+        {
+          "name": "Munich",
+          "description": "Visit, 2012\nConference, 2015\nRound trip, 2021",
+          "coordinates": [48.136796, 11.576678]
+        },
+        {
+          "name": "Hamburg",
+          "description": "Visti, 2013\nConference, 2016",
+          "coordinates": [53.548211, 9.989454]
+        }
+      ]
+    },
     {
       "id": "USA",
       "states": [
